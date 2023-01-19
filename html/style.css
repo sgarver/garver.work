@@ -24,6 +24,8 @@ html {
     --color-foreground: white;
     --color-background: black;
     --color-accent: #bf1595;
+
+    overflow-x: hidden;
 }
 
 p, h1, h2, h3, h4 {

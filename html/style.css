@@ -23,7 +23,7 @@ html {
 
     --color-foreground: white;
     --color-background: black;
-    --color-accent: #bf1595;
+    --color-accent: #9966ff;
 
     overflow-x: hidden;
 }
@@ -31,7 +31,6 @@ html {
 p, h1, h2, h3, h4 {
     margin: 0 0 1rem 0;
 }
-
 
 h1 {
     color: var(--color-background);
@@ -79,18 +78,14 @@ aside a {
     clear: both;
 }
 
-video {
-    width: 100%;
-}
-
-.video-box {
+.header-box {
     position: absolute;
     top: -13rem;
     left: 0;
     z-index: -1;
 }
 
-.video-box:after {
+.header-box:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -179,7 +174,7 @@ strong-accent {
 }
 
 ::selection {
-    color: var(--color-foreground);
+    color: black /*var(--color-foreground)*/;
     background: var(--color-accent);
 }
 
@@ -198,6 +193,7 @@ footer {
 footer nav {
     align-content: end;
 }
+
 footer nav a {
     text-align: right;
 }
